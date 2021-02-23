@@ -11,7 +11,7 @@ import java.lang.management.ManagementFactory;
   *
 * */
 public class StandDemo {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args){
 
         System.out.println("pid:" + ManagementFactory.getRuntimeMXBean().getName());
         Benchmark benchmark = new Benchmark();
